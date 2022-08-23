@@ -1,0 +1,18 @@
+.footer {
+    font-weight: 700;
+    font-size: 24px;
+} 
+
+.footer__address {
+    display: flex;
+    gap: 26px;
+}
+
+.footer__address_first {
+    margin-bottom: 30px;
+}
+
+.footer__address_svg {
+    color: #6C0287;
+}
+

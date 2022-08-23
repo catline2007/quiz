@@ -1,0 +1,64 @@
+.about {
+    display: flow-root;
+    height: 100%;
+}
+
+.about__img {
+    width: 600px;
+    height: 600px;
+    float: left;
+}
+
+.about__container {
+    width: 500px;
+    float: right;
+}
+
+.about__text {
+    margin-bottom: 40px;
+}
+
+.about__quote {
+    font-size: 44px;
+    line-height: 50px;
+    text-transform: uppercase;
+    white-space: pre-line;
+    margin-bottom: 50px;
+}
+
+.about__quote:before {
+    content: "“ ";
+    color: #6C0287;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 50px;
+}
+
+.about__quote:after {
+    content: " ”";
+    color: #6C0287;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 50px;
+}
+
+.about__cite_img{
+    width: 80px;
+    height: 80px;
+}
+
+.cite {
+    display: flex;
+    gap: 30px;
+    float: right;
+}
+
+.cite__text{
+    width: 280px;
+    height: 84px;
+    margin-bottom: 0;
+}
+
+.cite__author {
+    text-transform: uppercase;
+}

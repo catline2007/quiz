@@ -1,0 +1,16 @@
+.social {
+    display: flex;
+    gap: 26px;
+    padding: 0;
+}
+
+.social__link {
+    color: white;
+    transition-property: color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+.social__link:hover {
+    color: #ce0bff;
+}
